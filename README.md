@@ -1,7 +1,11 @@
 # Disaster Response Pipeline Project
 
 Project Summary:
-In this project, I designed a model that puts messages into categories. This is useful for disaster situations in order to route the messages in real-time to get the resources people need. The messages can be direct or through social media or news.
+In this project, I designed a classification model that puts messages into categories. This is useful for disaster situations in order to route the messages in real-time to get the resources people need. The messages can be direct or through social media or news.
+
+The first model I created (LinearSVC) performed well but after finetuning a logistic regression model scores improved.
+
+The project also creates a web app with some visualizations. The app will take any message typed in by the user and classifies them into any of the 36 categories.
 
 
 How to Run:
